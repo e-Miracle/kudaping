@@ -34,17 +34,11 @@ final class Kudaping
 
     public function __construct()
     {
-        /*$this->emailAddress = config('kudaping.emailAddress');
+        $this->emailAddress = config('kudaping.emailAddress');
         $this->apiKey = config('kudaping.apiKey');
         $this->environment = config('kudaping.environment');
         $this->transactionPrefix = config('kudaping.transactionPrefix');
         $this->liveUrl = "https://kuda-openapi.kuda.com/v2";
-        $this->testUrl = "https://kuda-openapi-uat.kudabank.com/v1";*/
-        $this->emailAddress = env('KUDA_EMAIL_ADDRESS');
-        $this->apiKey = env('KUDA_API_KEY');
-        $this->environment = 'live';
-        $this->transactionPrefix = 'kuda';
-        $this->liveUrl = "https://kuda-openapi.kuda.com/v2";
-        $this->testUrl = "https://kuda-openapi-uat.kudabank.com/v2";
+        $this->testUrl = "https://kuda-openapi-uat.kudabank.com/v1";
     }
 }
