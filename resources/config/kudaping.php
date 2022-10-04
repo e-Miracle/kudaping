@@ -23,5 +23,9 @@ return [
     /**
      * prefix for generated transaction references
      */
-    'transactionPrefix'=>env('KUDA_TRANSACTION_REFERENCE_PREFIX', 'kuda')
+    'transactionPrefix'=>env('KUDA_TRANSACTION_REFERENCE_PREFIX', 'kuda'),
+    /**
+     * kudaping cache key
+     */
+    'cacheKey'=>env('KUDA_CACHE_KEY', 'kudaping_cache')
 ];

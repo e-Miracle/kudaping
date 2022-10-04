@@ -29,7 +29,7 @@ Implement KUDA bank Open API in Laravel
 Install kudaping with composer
 
 ```bash
-  composer install emiracle/kudaping
+  composer require emiracle/kudaping
 ```
     
 ## Environment Variables
