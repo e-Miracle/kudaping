@@ -30,6 +30,7 @@ final class Kudaping
         $environment,
         $liveUrl,
         $testUrl,
+        $cacheKey,
         $transactionPrefix;
 
     public function __construct()
@@ -40,5 +41,6 @@ final class Kudaping
         $this->transactionPrefix = config('kudaping.transactionPrefix');
         $this->liveUrl = "https://kuda-openapi.kuda.com/v2";
         $this->testUrl = "https://kuda-openapi-uat.kudabank.com/v2";
+        $this->cacheKey = config('kudaping.cacheKey');
     }
 }
