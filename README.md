@@ -10,6 +10,11 @@ Implement KUDA bank Open API in Laravel
 [![GitHub stars](https://img.shields.io/github/stars/e-Miracle/kudaping)](https://github.com/e-Miracle/kudaping/stargazers)
 [![GitHub license](https://img.shields.io/github/license/e-Miracle/kudaping)](https://github.com/e-Miracle/kudaping/blob/main/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fe-Miracle%2Fkudaping)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fe-Miracle%2Fkudaping)
+[![Latest Stable Version](http://poser.pugx.org/emiracle/kudaping/v)](https://packagist.org/packages/emiracle/kudaping) 
+[![Total Downloads](http://poser.pugx.org/emiracle/kudaping/downloads)](https://packagist.org/packages/emiracle/kudaping) 
+[![Latest Unstable Version](http://poser.pugx.org/emiracle/kudaping/v/unstable)](https://packagist.org/packages/emiracle/kudaping) 
+[![License](http://poser.pugx.org/emiracle/kudaping/license)](https://packagist.org/packages/emiracle/kudaping) 
+[![PHP Version Require](http://poser.pugx.org/emiracle/kudaping/require/php)](https://packagist.org/packages/emiracle/kudaping)
 
 
 
