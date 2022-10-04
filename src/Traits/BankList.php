@@ -8,14 +8,19 @@ use Illuminate\Support\Facades\Http;
 
 trait BankList
 {
-    public function getBankList()
+    public function getBankList($reference = null)
     {
+        if (is_null($reference)){
+            $reference = $this->generateRequestReference();
+        }
         return [
             'body'=>$this->sendRequestWithRef(
                 'BANK_LIST',
-                $this->generateRequestReference(),
+                $reference,
                 []
             ),
+            'param'=>[],
+            'reference'=>$reference
         ];
     }
 }
