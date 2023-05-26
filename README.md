@@ -31,7 +31,17 @@ Install kudaping with composer
 ```bash
   composer require emiracle/kudaping
 ```
-    
+
+
+# Configuration
+
+Publish the configuration file using this command:
+
+```bash
+  php artisan vendor:publish --provider="eMiracle\Kudaping\KudapingServiceProvider"
+
+```
+
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
