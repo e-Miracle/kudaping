@@ -27,5 +27,13 @@ return [
     /**
      * kudaping cache key
      */
-    'cacheKey'=>env('KUDA_CACHE_KEY', 'kudaping_cache')
+    'cacheKey'=>env('KUDA_CACHE_KEY', 'kudaping_cache'),
+    /**
+     * Live url
+     */
+    'liveUrl'=>env('KUDA_LIVE_URL', 'https://kuda-openapi.kuda.com/v2.1'),
+    /**
+     * Test url
+     */
+    'testUrl'=>env('KUDA_TEST_URL', 'https://kuda-openapi-uat.kudabank.com/v2.1'),
 ];

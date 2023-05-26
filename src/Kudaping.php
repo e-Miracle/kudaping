@@ -39,8 +39,8 @@ final class Kudaping
         $this->apiKey = config('kudaping.apiKey');
         $this->environment = config('kudaping.environment');
         $this->transactionPrefix = config('kudaping.transactionPrefix');
-        $this->liveUrl = "https://kuda-openapi.kuda.com/v2";
-        $this->testUrl = "https://kuda-openapi-uat.kudabank.com/v2";
+        $this->liveUrl = config('kudaping.liveUrl');
+        $this->testUrl = config('kudaping.testUrl');
         $this->cacheKey = config('kudaping.cacheKey');
     }
 }
