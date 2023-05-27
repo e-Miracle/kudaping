@@ -12,11 +12,9 @@ trait HttpTrait
     {
         return Http::withToken($this->generateEncryption())->withBody(
             json_encode([
-                'data'=>json_encode([
-                    'serviceType'=>$serviceType,
-                    'requestRef'=>$requestRef,
-                    'data'=>json_encode($data)
-                ])
+                'ServiceType'=>$serviceType,
+                'RequestRef'=>$requestRef,
+                'Data'=>json_encode($data)
             ]), 'application/json'
         )->post($this->getUrl())->json();
     }
@@ -25,10 +23,8 @@ trait HttpTrait
     {
         return Http::withToken($this->generateEncryption())->withBody(
             json_encode([
-                'data'=>json_encode([
-                    'serviceType'=>$serviceType,
-                    'data'=>json_encode($data)
-                ])
+                'ServiceType'=>$serviceType,
+                'Data'=>json_encode($data)
             ]), 'application/json'
         )->post($this->getUrl())->json();
     }
