@@ -13,6 +13,7 @@ use eMiracle\Kudaping\Traits\ReferenceTrait;
 use eMiracle\Kudaping\Traits\SendMoney;
 use eMiracle\Kudaping\Traits\StaticVirtualAccount;
 use eMiracle\Kudaping\Traits\TransactionHistory;
+use eMiracle\Kudaping\Traits\Enquiry;
 
 final class Kudaping
 {
@@ -24,7 +25,8 @@ final class Kudaping
         BankList,
         SendMoney,
         AccountBalance,
-        TransactionHistory;
+        TransactionHistory,
+        Enquiry;
     private string $emailAddress,
         $apiKey,
         $environment,
