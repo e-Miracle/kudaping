@@ -68,11 +68,11 @@ trait StaticVirtualAccount
     }
 
     public function getVirtualAccountDetail(
-        string $transactionReference
+        string $trackingReference
     ):array
     {
         $data = [
-            'transactionReference'=>$transactionReference
+            'trackingReference'=>$trackingReference
         ];
         return [
             'body'=>$this->sendRequestWithoutRef(
